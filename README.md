@@ -1,1 +1,2 @@
-# playground
+# Playground Repository
+A repository to experiment with...
