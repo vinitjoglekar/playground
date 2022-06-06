@@ -3,7 +3,7 @@ layout: default
 title: What is Markov Chain? 
 ---
 
-# What is Markov Chain? 5
+# What is Markov Chain? 6
 
 A Markov Chain, also called Markov Process, is a stochastic (that is random) process, where the probability of the process transitioning to any state depends solely on the current state of the process. For the sake of simplicity, this discussion will be limited to discrete-time Markov Chains.
 
@@ -27,7 +27,7 @@ A Markov Chain is a stochastic process such that:
 
 
 ### One-step transition probability matrix
-As mentioned above, or every possible state $i$, the probability of transitioning to every possible state is fixed and defined. These probability values can be put in to a matrix form for ease of mathematical manipulation. This matrix, called one-step transition probability matrix &mdash; because, it is the probability matrix for a single time-step &mdash; fully defines a given Markov process. The matrix is defined as follows:
+As mentioned above, for every possible state $i$, the probability of transitioning to every possible state is fixed and defined. These probability values can be put in to a matrix form for ease of mathematical manipulation, and this matrix is called one-step transition probability matrix &mdash; because, it is the probability matrix for a single time-step. It fully defines the given Markov process. The matrix is defined as follows:
 
 <div align="center">
 $$ \begin{pmatrix}
