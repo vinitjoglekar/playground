@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
   </head>
   <body>
-    <p> Marker 2 </p>
+    <p> Marker 3 </p>
     <main id="content" class="main-content" role="main">
       {{ content }}
     </main>
@@ -27,7 +27,8 @@
     <script>
       MathJax = {
         tex: {
-          inlineMath: [['$', '$'], ['\\(', '\\)']]
+          inlineMath: [['$', '$'], ['\\(', '\\)']],
+          displayMath: [['$$', '$$'], ['\\[', '\\]']],
         }
       };
     </script>
