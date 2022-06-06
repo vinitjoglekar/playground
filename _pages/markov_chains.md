@@ -3,12 +3,12 @@ layout: default
 title: What is Markov Chain? 
 ---
 
-# What is Markov Chain? 5
+# What is Markov Chain? 6
 
 A Markov Chain, also called Markov Process, is a stochastic (that is random) process, where the probability of the process transitioning to any state depends solely on the current state of the process. For the sake of simplicity, this discussion will be limited to discrete-time Markov Chains.
 
 ### Formal Definition
-Let $X_n, n=0,1,2,...$ be a  stochastic process that takes a countable number of possible values. Let these possible values be indexed by the set of integers $\left\{1,2,3,...\right\}$. If $X_{n}=i$, the process is said to be in state \(i\) at time \(n\). When the process is in state \(i\), let there be a fixed probability \(P_{ij}\) that it will next be in state \(j\). Such a stochastic process is called a Markov Chain.
+Let $X_n, n=0,1,2,...$ be a  stochastic process that takes a countable number of possible values. Let these possible values be indexed by the set of integers $\left \{ 1,2,3,... \right \} $. If $X_{n}=i$, the process is said to be in state \(i\) at time \(n\). When the process is in state \(i\), let there be a fixed probability \(P_{ij}\) that it will next be in state \(j\). Such a stochastic process is called a Markov Chain.
 
 Because probabilities are always non-negative and the process must make a transition at every increment in $t$ from current state $i$ in to some state $j$ (note, $j$ may or may not be equal to $i$), we have
 $$ P_{ij} \geq 0, \hspace{1em} i,j \geq 0, \hspace{1em} \sum_{j=0}^\infty P_{ij} = 1 $$
