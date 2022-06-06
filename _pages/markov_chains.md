@@ -1,6 +1,6 @@
 ---
 layout: default
-title: What is Markov Chain?
+title: What is Markov Chain? 2
 ---
 
 # What is Markov Chain?
