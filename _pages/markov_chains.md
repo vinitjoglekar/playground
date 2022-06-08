@@ -30,7 +30,7 @@ A Markov Chain is a stochastic process such that:
 As mentioned above, for every possible state $i$, the probability of transitioning to every possible state is fixed and defined. These probability values can be put in to a matrix form for ease of mathematical manipulation, and this matrix is called one-step transition probability matrix &mdash; because, it is the probability matrix for a single time-step. It fully defines the given Markov process. The matrix is defined as follows:
 
 <div align="center">
-**P** = $$ \begin{pmatrix}
+$$ \textbf{P} = \begin{pmatrix}
  &P_{00}  &P_{01}  &P_{02}  &... \\
  &P_{10}  &P_{11}  &P_{12}  &... \\
  &\vdots  &\vdots  &\vdots \\
