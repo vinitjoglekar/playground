@@ -50,6 +50,7 @@ Let's consider a board of size 4 x 4, and a simplified scenario where a single p
 
 <div align="center">
 ![A 4x4 Snakes and Ladders board](../assets/svg/Snake-Ladder.svg)
+  <img src="/assets/svg/Snake-Ladder.svg" alt="A 4x4 Snakes and Ladders board">
 </div>
 
 Let's evaluate the probabilities of transitioning to all possible states when \\(X_0 = 1\\), and when \\(X_k = 12\\). In any case, always, the dice throws up the numbers 1 to 6 with equal probability of \\(\frac{1}{6}\\).
