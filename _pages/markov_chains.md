@@ -49,9 +49,11 @@ Let's consider a board of size 4 x 4, and a simplified scenario where a single p
 - For every possible state $i$, the probability of transitioning to every possible state is fixed and defined; and adds up to \\(1\\).
 
 <div align="center">
+ <p>
   <img src="/assets/svg/Snake-Ladder.svg" alt="A 4x4 Snakes and Ladders board">
   <br></br>
-  A 4x4 Snakes and Ladders board
+  <div id="grey">A 4x4 Snakes and Ladders board. Snakes and ladders on the board may be generalized to arrows, a snake being a downward arrow, while a ladder being an upward arrow.</div>
+ </p>
 </div>
 
 Let's evaluate the probabilities of transitioning to all possible states when \\(X_0 = 1\\), and when \\(X_k = 12\\). In any case, always, the dice throws up the numbers 1 to 6 with equal probability of \\(\frac{1}{6}\\).
