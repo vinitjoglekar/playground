@@ -12,13 +12,21 @@
         gtag('config', '{{ site.google_analytics }}');
       </script>
     {% endif %}
+    <script>
+      function style_grey() {
+        var elems = document.getElementsByClassName("grey");
+        for (var i = 0; i < elems.length; i++) {
+          elems.item(i).style.setProperty("color", "grey");
+        }
+      }
+    </script>
     <meta charset="UTF-8">
 
 {% seo %}
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
   </head>
-  <body>
+  <body onload="style_grey();">
     <main id="content" class="main-content" role="main">
       {{ content }}
     </main>
