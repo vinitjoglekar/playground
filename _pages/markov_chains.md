@@ -50,9 +50,9 @@ Let's consider a board of size 4 x 4, and a simplified scenario where a single p
 
 <div align="center">
  <p>
-  <img src="/assets/svg/Snake-Ladder.svg" alt="A 4x4 Snakes and Ladders board">
+  <img src="https://raw.githubusercontent.com/vinitjoglekar/playground/main/assets/svg/Snake-Ladder.svg" alt="A 4x4 Snakes and Ladders board">
   <br></br>
-  <div id="grey">A 4x4 Snakes and Ladders board. Snakes and ladders on the board may be generalized to arrows, a snake being a downward arrow, while a ladder being an upward arrow.</div>
+  <div id="grey">A 4x4 Snakes and Ladders board. Snakes and ladders on the board may be generalized to arrows, a snake being a downward arrow, while a ladder being an upward arrow. In </div>
  </p>
 </div>
 
