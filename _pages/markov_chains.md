@@ -61,3 +61,13 @@ Let's evaluate the probabilities of transitioning to all possible states when $X
 - When $X_k = 12$, when the dice throws 1, 2, 3, 4, 5, or 6; the piece will move to 11 (via 13), 14, 6 (via 15), 16, 12, and 12 respectively &mdash;  because the piece cannot move when the dice throws 5 or 6. Hence $P_{12,11} =$ $P_{12,14} =$ $P_{12,6} =$ $P_{12,16} = \frac{1}{6}$; and $P_{12,12} = \frac{2}{6}$. Probability of transition to all other states is 0.
 - Also note that, once the piece reaches the state 16 it remains there forever, no matter what number the dice throws up. Hence $P_{16,16} = 1$. Probability of transition to all other states is 0.
 
+The one-step transition probability matrix for this board may be written as:
+
+<div align="center">
+$$\begin{pmatrix}
+ 0 0 0 \frac{1}{6} \frac{1}{6} \frac{1}{6} \frac{1}{6} \frac{1}{6} 0 0 0 \frac{1}{6} 0 0 0 0 \\
+ 0 0 0 \frac{1}{6} \frac{1}{6} \frac{1}{6} \frac{1}{6} \frac{1}{6} 0 0 0 \frac{1}{6} 0 0 0 0 \\
+ 0 0 0 \frac{1}{6} \frac{1}{6} \frac{1}{6} \frac{1}{6} \frac{1}{6}\frac{1}{6} 0 0 0 0 0 0 0 \\
+\end{pmatrix}
+$$
+</div>
