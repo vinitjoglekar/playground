@@ -46,7 +46,7 @@ Let's consider a board of size 4 x 4, and a simplified scenario where a single p
 - All the states that the process can assume are known: $\left \\{ 1,2,3,...,15,16 \right \\}$
 - Obviouly, the total number of states that the process can assume is finite.
 - A dice throw represents a unit increment in time, and at every dice throw, the process transitions from its current state to some state.
-- For every possible state $i$, the probability of transitioning to every possible state is fixed and defined; and adds up to $1$.
+- For every possible state $i$, the probability of transitioning to every possible state $j$ is fixed and defined; and adds up to $1$.
 
 <div align="center">
  <p>
