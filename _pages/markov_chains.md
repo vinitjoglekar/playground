@@ -52,7 +52,7 @@ Let's consider a board of size 4 x 4, and a simplified scenario where a single p
  <p>
   <img src="https://raw.githubusercontent.com/vinitjoglekar/playground/main/assets/svg/Snake-Ladder.svg" alt="A 4x4 Snakes and Ladders board">
   <br/>
-  <div id="grey">A 4x4 Snakes and Ladders board. Snakes and ladders on the board may be generalized to arrows, a snake being a downward arrow, while a ladder being an upward arrow. In the image above, snakes are represented by red colored arrows, while ladders are represented by green colored arrows. </div>
+  <div class="grey">A 4x4 Snakes and Ladders board. Snakes and ladders on the board may be generalized to arrows, a snake being a downward arrow, while a ladder being an upward arrow. In the image above, snakes are represented by red colored arrows, while ladders are represented by green colored arrows. </div>
  </p>
 </div>
 
