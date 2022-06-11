@@ -48,16 +48,16 @@ Let's consider a board of size 4 x 4, and a simplified scenario where a single p
 - A dice throw represents a unit increment in time, and at every dice throw, the process transitions from its current state to some state.
 - For every possible state $i$, the probability of transitioning to every possible state is fixed and defined; and adds up to $1$.
 
-<div align="center">
+<div align="center" border="thin solid black">
  <p>
   <img src="https://raw.githubusercontent.com/vinitjoglekar/playground/main/assets/svg/Snake-Ladder.svg" alt="A 4x4 Snakes and Ladders board">
   <br/>
-  <div id="grey">A 4x4 Snakes and Ladders board. Snakes and ladders on the board may be generalized to arrows, a snake being a downward arrow, while a ladder being an upward arrow. In the image above, snakes are represented by red colored arrows, while ladders are represented by green arrows. </div>
+  <div id="grey">A 4x4 Snakes and Ladders board. Snakes and ladders on the board may be generalized to arrows, a snake being a downward arrow, while a ladder being an upward arrow. In the image above, snakes are represented by red colored arrows, while ladders are represented by green colored arrows. </div>
  </p>
 </div>
 
 Let's evaluate the probabilities of transitioning to all possible states when $X_0 = 1$, and when $X_k = 12$. Recall that the dice always throws up the numbers 1 to 6 with equal probability of $\frac{1}{6}$.
 - When $X_0 = 1$, when the dice throws 1, 2, 3, 4, 5, or 6; the piece will move to 8 (via 2), 12 (via 3), 4, 5, 6, and 7 respectively. Hence $P_{1,8} = P_{1,12} = P_{1,4} = P_{1,5} = P_{1,6} = P_{1,7} = \frac{1}{6}$. Probability of transition to all other states is 0.
-- When $X_k = 12$, when the dice throws 1, 2, 3, 4, 5, or 6; the piece will move to 11 (via 13), 14, 6 (via 15), 16, 12, and 12 respectively - because the piece cannot move when the dice throws 5 or 6. Hence $P_{12,11} = P_{12,14} = P_{12,6} = P_{12,16} = \frac{1}{6}$; and $P_{12,12} = \frac{2}{6}$. Probability of transition to all other states is 0.
+- When $X_k = 12$, when the dice throws 1, 2, 3, 4, 5, or 6; the piece will move to 11 (via 13), 14, 6 (via 15), 16, 12, and 12 respectively &mdash;  because the piece cannot move when the dice throws 5 or 6. Hence $P_{12,11} = P_{12,14} = P_{12,6} = P_{12,16} = \frac{1}{6}$; and $P_{12,12} = \frac{2}{6}$. Probability of transition to all other states is 0.
 - Also note that, once the piece reaches the state 16 it remains there forever, no matter what number the dice throws up. Hence $P_{16,16} = 1$. Probability of transition to all other states is 0.
 
