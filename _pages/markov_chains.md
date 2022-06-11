@@ -48,7 +48,7 @@ Let's consider a board of size 4 x 4, and a simplified scenario where a single p
 - A dice throw represents a unit increment in time, and at every dice throw, the process transitions from its current state to some state.
 - For every possible state $i$, the probability of transitioning to every possible state is fixed and defined; and adds up to $1$.
 
-<div align="center" border="thin solid black">
+<div align="center">
  <p>
   <img src="https://raw.githubusercontent.com/vinitjoglekar/playground/main/assets/svg/Snake-Ladder.svg" alt="A 4x4 Snakes and Ladders board">
   <br/>
