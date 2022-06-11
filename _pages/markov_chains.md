@@ -65,9 +65,9 @@ The one-step transition probability matrix for this board may be written as:
 
 <div align="center">
 $$\begin{pmatrix}
- 0 0 0 \frac{1}{6} \frac{1}{6} \frac{1}{6} \frac{1}{6} \frac{1}{6} 0 0 0 \frac{1}{6} 0 0 0 0 \\
- 0 0 0 \frac{1}{6} \frac{1}{6} \frac{1}{6} \frac{1}{6} \frac{1}{6} 0 0 0 \frac{1}{6} 0 0 0 0 \\
- 0 0 0 \frac{1}{6} \frac{1}{6} \frac{1}{6} \frac{1}{6} \frac{1}{6}\frac{1}{6} 0 0 0 0 0 0 0 \\
+ &0 &0 &0 &\frac{1}{6} &\frac{1}{6} &\frac{1}{6} &\frac{1}{6} &\frac{1}{6} &0 &0 &0 &\frac{1}{6} &0 &0 &0 &0 \\
+ &0 &0 &0 &\frac{1}{6} &\frac{1}{6} &\frac{1}{6} &\frac{1}{6} &\frac{1}{6} &0 &0 &0 &\frac{1}{6} &0 &0 &0 &0 \\
+ &0 &0 &0 &\frac{1}{6} &\frac{1}{6} &\frac{1}{6} &\frac{1}{6} &\frac{1}{6} &\frac{1}{6} &0 &0 &0 &0 &0 &0 &0 \\
 \end{pmatrix}
 $$
 </div>
