@@ -40,7 +40,7 @@ $$ \textbf{P} = \begin{pmatrix}
 $$
 </div>
 
-### An example: Snakes and ladders
+### An example: The game of Snakes and Ladders
 Let's consider a board of size 4 x 4, and a simplified scenario where a single player throws dice and moves the piece by the number thrown up. The game starts with the piece placed on the cell numbered one. The cell number represents the state of the process. This process is a Markov chain because,
 - At any given time, the process is in some state, the initial state being $X_0 = 1$.
 - All the states that the process can assume are known: $\left \\{ 1,2,3,...,15,16 \right \\}$
@@ -61,13 +61,6 @@ Let's evaluate the probabilities of transitioning to all possible states when $X
 - When $X_k = 12$, when the dice throws 1, 2, 3, 4, 5, or 6; the piece will move to 11 (via 13), 14, 6 (via 15), 16, 12, and 12 respectively &mdash;  because the piece cannot move when the dice throws 5 or 6. Hence $P_{12,11} =$ $P_{12,14} =$ $P_{12,6} =$ $P_{12,16} = \frac{1}{6}$; and $P_{12,12} = \frac{2}{6}$. Probability of transition to all other states is 0.
 - Also note that, once the piece reaches the state 16 it remains there forever, no matter what number the dice throws up. Hence $P_{16,16} = 1$. Probability of transition to all other states is 0.
 
-The one-step transition probability matrix for this board may be written as:
+In a similar manner, the transition probabilities from all states can be computed and the one-step transition probability matrix for the process can be defined.
 
-<div align="center">
-$$\begin{pmatrix}
- &0 &0 &0 &\frac{1}{6} &\frac{1}{6} &\frac{1}{6} &\frac{1}{6} &\frac{1}{6} &0 &0 &0 &\frac{1}{6} &0 &0 &0 &0 \\
- &0 &0 &0 &\frac{1}{6} &\frac{1}{6} &\frac{1}{6} &\frac{1}{6} &\frac{1}{6} &0 &0 &0 &\frac{1}{6} &0 &0 &0 &0 \\
- &0 &0 &0 &\frac{1}{6} &\frac{1}{6} &\frac{1}{6} &\frac{1}{6} &\frac{1}{6} &\frac{1}{6} &0 &0 &0 &0 &0 &0 &0 \\
-\end{pmatrix}
-$$
-</div>
+### Footnotes
