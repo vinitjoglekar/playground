@@ -1,3 +1,0 @@
-# Perspectives
-
-Some perspectives...
